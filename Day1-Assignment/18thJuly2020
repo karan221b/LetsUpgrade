@@ -1,0 +1,35 @@
+Question 1: What is your understanding of Blockchain?
+
+A:Blockchain is a decentralized distributed database and cryptography technology that keeps a permanent record of all transactions in a secure, transparent and immutable way. 
+Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data.
+
+Question 2:What is the core problem Blockchain trying to solve?
+
+Authenticity
+Security
+Need of powerful third party for trust
+
+
+Question 3:What are the few features which Blockchain will give you?
+
+Decentralized Network
+Immutable
+Tamper proof
+Verifiable
+Data Transparency
+High-level security
+
+
+Question 4:What all things does a Block contain?
+
+Block number
+Mining key
+Data Records (Data of that block)
+Previous block Finger Print
+
+
+Question 5:How is the verifiability of Blockchain has been attained?
+
+The same copy of data is stored and distributed across many devices.
+All other blocks of the same network will detect changes to the data if the data is changed in one place. 
+So, the verifiability of the blockchain is achieved.
