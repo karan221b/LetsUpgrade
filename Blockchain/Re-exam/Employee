@@ -1,0 +1,40 @@
+pragma solidity ^0.4.17 < 0.6.12; 
+
+contract EmployeeData{
+    
+    string public name;
+    int public   age;
+    int public id;
+    string public gender;
+    int public salary;
+    string public designation;
+    
+    function EmployeeData(string newName, int newAge,int newId,string newGender, int newSalary, string newDesignation) public{
+        
+        name = newName;
+        age = newAge;
+        id = newId;
+        gender = newGender;
+        salary = newSalary;
+        designation = newDesignation;
+        
+     }
+       function setEmployeeDetails(string newName, int newAge,int newId,string newGender, int newSalary, string newDesignation) public{
+        
+        name = newName;
+        age = newAge;
+        id = newId;
+        gender = newGender;
+        salary = newSalary;
+        designation = newDesignation;
+        
+    }
+  
+    
+    function getEmployeeDetails() public view returns(string,int,int,string,int,string){
+        return(name, age, id, gender,salary, designation);
+    }
+}
+
+Smart contract address: 0xf73ba7fdfcdac1ad979d9e223fd71ced23df7700
+Ropsten transaction link : https://ropsten.etherscan.io/tx/0x79771e30280dcf9145efdef19aeb60d0e32a717c5db091ff88b1329b4b078409
