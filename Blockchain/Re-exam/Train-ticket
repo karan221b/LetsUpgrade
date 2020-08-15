@@ -1,0 +1,40 @@
+pragma solidity ^0.4.17 < 0.6.12; 
+
+contract TrainTicketsData{
+    
+    string public name;
+    int public   age;
+    int public   fare;
+    string public gender;
+    string public pickuppnt;
+    string public destination;
+    
+    function TrainTicketsData(string newName, int newAge,int newFare,string newGender, string newPickuppnt, string newDestination) public{
+        
+        name = newName;
+        age = newAge;
+        fare = newFare;
+        gender = newGender;
+        pickuppnt = newPickuppnt;
+        destination = newDestination;
+        
+     }
+       function setLandNewDetails(string newName, int newAge,int newFare,string newGender, string newPickuppnt, string newDestination) public{
+        
+        name = newName;
+        age = newAge;
+        fare = newFare;
+        gender = newGender;
+        pickuppnt = newPickuppnt;
+        destination = newDestination;
+        
+    }
+  
+    
+    function getTicketDetails() public view returns(string,int,int,string,string,string){
+        return(name, age, fare, gender,pickuppnt, destination);
+    }
+}
+
+
+Smart Contract Address : 0x327bc005144ed23d42156088a3e52edc34c6f45b
